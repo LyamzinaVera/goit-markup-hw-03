@@ -17,15 +17,23 @@ font-family: Roboto, sans-serif;
 font-size: 14px;
 letter-spacing: 0.03em;
 }
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+outline-style: solid;
+
+}
 /* Logo */
 .logo {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-decoration: none;
 }
+
 .logo-black {
     color: var(--title-text-color)
 }
@@ -38,6 +46,8 @@ ul {
 
 /* site-nav */
 .auth-nav {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--primary-text-color);
     font-weight: 500;
     line-height: 1.14;
@@ -65,8 +75,10 @@ ul {
     font-style: normal;
 }
 .site-nav .link {
+    margin: 0;
+    padding: 0;
     color: var(--accent-color);
-        text-decoration: none;
+    text-decoration: none;
     font-style: normal;
 }
 
@@ -75,12 +87,15 @@ ul {
     
     
 }
-
 /* Hero */
 .hero {
     background-color: var(--background-color);
-}
+    text-align: center;
+    }
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 200px;
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -91,10 +106,20 @@ ul {
 }
 
 /* Section */
+.section {
+margin-top: 0;
+margin-bottom: 0;
+}
 .section-team{
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: var(--background-color-alternativ);
 }
 .section-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -104,24 +129,45 @@ ul {
     }
 
 /* Features */
+.features {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 94px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
+.photo-team {
+padding-bottom: 94px;
+}
 .title-photo {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19px;
     text-align: center;
 }
 .text {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
     color: var(--primary-text-color);
       line-height: 1.71;
 }
 .text-photo {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
     color: var(--primary-text-color);
      font-size: 16px;
      line-height: 1.19px;
@@ -129,7 +175,11 @@ ul {
 }
 /* Examples */
 .work-list .title {
-    color: var(--title-text-color);
+     color: var(--title-text-color);
+}
+.work-list {
+ margin-top: 0;
+ margin-bottom: 0;
 }
 /* Проекты */
 .title-project {
@@ -153,11 +203,16 @@ ul {
         text-decoration: none;
         font-style: normal;
     }
+    .photo-class {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
 /* button */
 .button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+    border-radius: 4px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -165,6 +220,9 @@ ul {
 }
 
 .button.primary {
+    margin-top: 0;
+    margin-bottom: 210px;
+    padding: 10px 32px;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     
@@ -176,8 +234,9 @@ ul {
 }
 
 .button.secondery {
+    margin-top: 0;
+    margin-bottom:50px;
     display: inline-block;
-    border-radius: 4px;
     padding: 6px 22px;
     color: var(--title-text-color);
     background-color: var(--background-color-alternativ);
@@ -191,10 +250,23 @@ background-color: var(--accent-color);
 }
 /* Footer */
 .footer {
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: var(--background-color);
     line-height: 24px;
     text-decoration: none;
     font-style: normal;
+}
+.adress {
+   padding-top: 20px;
+}
+.adress-mail {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.adress-phone {
+    padding-top: 0;
+    padding-bottom: 60px;
 }
 .logo-white {
     color: var(--primary-white-color);
