@@ -179,7 +179,9 @@ margin-right: 0;
    padding-top: 94px;
    padding-bottom: 94px;
 }
-
+.job {
+    padding: 0;
+}
 .section-title {
     margin-top: 0;
     margin-bottom: 50px;
